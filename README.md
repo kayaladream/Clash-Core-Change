@@ -1,1 +1,1 @@
-![QQ截图20230822001600](https://github.com/kayaladream/Clash-Core-Change/assets/136615856/718cceed-b10a-433c-8fa0-b0ecf8c7db29)
+![QQ截图20230822002323](https://github.com/kayaladream/Clash-Core-Change/assets/136615856/23fecc3f-eaac-4316-a718-221f2bcb0463)
