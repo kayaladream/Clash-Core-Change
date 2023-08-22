@@ -6,7 +6,7 @@
 ### 使用方法：
 - 下载“Clash-Core-Change.bat”与“Clash.Meta内核“一起放在此目录下
   
-   `%LocalAppData%\Programs\Clash for Windows\resources\static\files\win\x64`
+   <pre><code>%LocalAppData%\Programs\Clash for Windows\resources\static\files\win\x64</code></pre>
  
 - 右击“Clash-Core-Change.bat”批处理文件选择”创建快捷方式“
 - 打开Clash for windows，选择“常规”，鼠标移到“配置文件主目录”，点击“打开目录”
