@@ -17,4 +17,4 @@
 - > Clash for Windows客户端会自动重启使用新内核。
 - >Clash for Windows免安装版本如不是默认安装目录，则需要手动重启Clash for Windows。
 
-- > [Clash.Meta内核下载地址](https://github.com/MetaCubeX/Clash.Meta)
+- > [Clash.Meta内核下载地址](https://github.com/MetaCubeX/mihomo/releases/tag/v1.16.0)
