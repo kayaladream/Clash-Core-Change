@@ -3,6 +3,8 @@
 -  我们最喜欢使用的代理软件Clash for Windows，因为原版是集成的Premium内核，所以并不支持Xray的一些协议，如VLESS、XTLS、Trojan、Hysteria等强大的自建节点，于是也就就衍生出来了Clash.Meta内核。
 - 不过Clash for Windows并不支持在客户端更换内核，而且Meta内核与Clash for Windows还有些兼容性的问题，所以有些人就会频繁更换内核，但操作起来很麻烦。本项目利用批处理bat文件一键来回切换Premium、Meta内核，方便快捷。
 
+- **更新：已支持一键切换mihomo内核https://github.com/kayaladream/Clash-Core-Change/releases/tag/v2.0**
+
 ### 使用方法：
 - 下载“Clash-Core-Change.bat”与“Clash.Meta内核“一起放在此目录下
   
