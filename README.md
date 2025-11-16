@@ -28,9 +28,9 @@
   <pre><code>%USERPROFILE%\.config\clash</code></pre>
   
 - 通过“任务计划程序”：
-- 按 Win + R，输入 taskschd.msc
-- 创建基本任务
-- 设置触发器
-- 操作：启动程序
-- 程序或脚本：%USERPROFILE%\.config\clash\run_clash_as_admin.bat
-- 勾选"使用最高权限运行"
+- > 按 Win + R，输入 taskschd.msc
+- > 创建基本任务
+- > 设置触发器
+- > 操作：启动程序
+- > 程序或脚本：%USERPROFILE%\.config\clash\run_clash_as_admin.bat
+- > 勾选"使用最高权限运行"
