@@ -22,7 +22,7 @@
 - > [Clash.Meta内核下载地址](https://github.com/MetaCubeX/mihomo/releases/tag/v1.16.0)
   >
 ### 启用TUN模式：
-**切换mihomo内核后不支持安装“服务模式”启用“TUN模式”，对于想使用TUN模式的小伙伴，可以通过右键“以管理员身份运行”后在“常规”选项卡开启“TUN模式”，但比较麻烦，而且开机自启时无效，请使用以下方法**
+**切换Meta内核后不支持安装“服务模式”启用“TUN模式”，对于想使用TUN模式的小伙伴，可以通过右键“以管理员身份运行”后在“常规”选项卡开启“TUN模式”，但比较麻烦，而且开机自启时无效，请使用以下方法**
 - [此处](https://github.com/kayaladream/Clash-Core-Change/releases)下载“run_clash_as_admin.vbs”与“run_clash_as_admin.bat”这两个文件到一起放在此目录下（也可以自定义路径）
 
   <pre><code>%USERPROFILE%\.config\clash</code></pre>
