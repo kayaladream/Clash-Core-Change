@@ -6,11 +6,11 @@
 - **更新：已支持一键切换mihomo内核https://github.com/kayaladream/Clash-Core-Change/releases/tag/v2.0**
 
 ### 使用方法：
-- 下载“Clash-Core-Change.bat”与“Clash.Meta内核“一起放在此目录下
+- 下载“Clash-Core-Change.bat”与“Clash.Meta内核”一起放在此目录下
   
    <pre><code>%LocalAppData%\Programs\Clash for Windows\resources\static\files\win\x64</code></pre>
  
-- 右击“Clash-Core-Change.bat”批处理文件选择”创建快捷方式“
+- 右击“Clash-Core-Change.bat”批处理文件选择“创建快捷方式”
 - 打开Clash for Windows，选择“常规”，鼠标移到“配置文件主目录”，点击“打开目录”
 - 将第2步创建好的批处理快捷方式剪切到“配置文件主目录”
 -双击“Clash-Core-Change.bat - 快捷方式”，即可切换内核
@@ -20,3 +20,17 @@
 - >Clash for Windows免安装版本如不是默认安装目录，则需要手动重启Clash for Windows。
 
 - > [Clash.Meta内核下载地址](https://github.com/MetaCubeX/mihomo/releases/tag/v1.16.0)
+  >
+### 启用TUN模式：
+**切换mihomo内核后不支持安装“服务模式”启用“TUN模式”，对于想使用TUN模式的小伙伴，可以通过右键“以管理员身份运行”后在“常规”选项卡开启“TUN模式”，但比较麻烦，而且开机自启时无效，请使用以下方法**
+- [此处](https://github.com/kayaladream/Clash-Core-Change/releases)下载“run_clash_as_admin.vbs”与“run_clash_as_admin.bat”这两个文件到一起放在此目录下（也可以自定义路径）
+
+  <pre><code>%USERPROFILE%\.config\clash</code></pre>
+  
+- 通过“任务计划程序”：
+- 按 Win + R，输入 taskschd.msc
+- 创建基本任务
+- 设置触发器
+- 操作：启动程序
+- 程序或脚本：%USERPROFILE%\.config\clash\run_clash_as_admin.bat
+- 勾选"使用最高权限运行"
