@@ -32,5 +32,5 @@
 - > 创建基本任务
 - > 设置触发器
 - > 操作：启动程序
-- > 程序或脚本：%USERPROFILE%\.config\clash\run_clash_as_admin.bat
+- > 程序或脚本：`%USERPROFILE%\.config\clash\run_clash_as_admin.bat`
 - > 勾选"使用最高权限运行"
